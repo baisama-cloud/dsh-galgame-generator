@@ -38,9 +38,15 @@
       ]
     }
   },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "pack": "npm pack"
+  },
   "files": [
     "lib",
     "cordis.patch.yml",
+    "docs",
+    "examples",
     "README.md",
     "README.en.md",
     "LICENSE"

@@ -56,7 +56,13 @@ DeepSeek Harness (DSH) 的 **Galgame 生成器**：提供一份剧本文档 + �
 [结束 结局·天台上的诗]
 ```
 
-支持图片 png/jpg/jpeg/webp/gif/svg，音乐 mp3/ogg/wav/m4a/mp4/flac。完整语法见仓库内 `docs/剧本格式.md`（或生成时询问助手）。
+支持图片 png/jpg/jpeg/webp/gif/svg，音乐 mp3/ogg/wav/m4a/mp4/flac。完整语法见 [docs/剧本格式.md](docs/剧本格式.md)，可直接套用的示例剧本见 [examples/夏日回忆.md](examples/夏日回忆.md)（把 `img_human/`、`img_bg/`、`audio/` 换成你的素材即可）。
+
+## 自检
+
+```bash
+node scripts/check.mjs   # 语法 + manifest + bundle 契约自检
+```
 
 ## 安装
 
