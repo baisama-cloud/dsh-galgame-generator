@@ -12,6 +12,7 @@ DeepSeek Harness (DSH) 的 **Galgame 生成器**：提供一份剧本文档 + �
 - **剧本解析**：角色/背景/台词/旁白/选项分支/跳转/结局/**变量与 if 条件线**（`[if 变量 >= 1] … [else] … [endif]`）
 - **立绘自动跟随说话人**：谁说话显示谁、旁白全隐藏、切换 0.35s 淡入淡出不闪；`[show 名字]` / `[hide 名字]` 可显式锁定
 - **背景音乐**：`[bgm 音乐.mp3]` 播放（循环）、`[bgm off]` / `[bgm stop]` 停止、`[bgm 音乐.mp3 0.5]` 可调音量
+- **动画与 CG**：`[op]` 开局动画、`[ed]` 结束动画、`[cg]` CG 插图动画（`img_cg/`，支持 gif / svg / mp4 / webm）
 - **9 槽位存档读档**：进度、立绘、背景、BGM、变量全保存；标题页可直接进入读档
 - **播放器**：打字机、自动/快进、历史记录、结局画面
 - **两个模型工具**：`galgame_scan`（扫描素材）、`galgame_build`（解析生成）
@@ -24,6 +25,7 @@ DeepSeek Harness (DSH) 的 **Galgame 生成器**：提供一份剧本文档 + �
 | 人物立绘 | `img_human/`（如 `img_human/mei.png`） |
 | 背景图片 | `img_bg/`（如 `img_bg/classroom.png`） |
 | 背景音乐 | `audio/`（如 `audio/bgm.mp3`） |
+| 开局/结束动画、CG 插图 | `img_cg/`（如 `img_cg/opening.gif`、`img_cg/cg1.gif`、`img_cg/ending.mp4`） |
 
 剧本示例：
 
