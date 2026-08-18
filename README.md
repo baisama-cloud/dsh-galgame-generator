@@ -1,6 +1,7 @@
 # dsh-galgame-generator
 
 DeepSeek Harness (DSH) 的 **Galgame 生成器**：提供一份剧本文档 + 立绘/背景/音乐素材，即可生成一个可玩的视觉小说（Galgame）网页。
+新增一个GalGame生成模式，在这个模式的工作区下提供一份剧本文档 + 立绘/CG/背景/音乐素材等，即可生成Galgame网页。
 
 生成物：
 
