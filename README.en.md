@@ -24,6 +24,10 @@ A Galgame (visual novel) generator for DeepSeek Harness (DSH). Give it a script 
 
 See `README.zh.md` for the script format quick reference and installation steps.
 
+## 🎬 Galgame Generation Mode
+
+After install and a page refresh, the plugin also registers a **「Galgame 生成模式」** agent preset in DSH. Pick it in the new-session preset chip (or set it as default under Settings → Agent Presets). Sessions in this mode get an injected persona that tells the model to auto-run `galgame_scan` then `galgame_build` when you simply say "generate", so you only need to place the assets and say **生成**. The preset is a full copy of `standard` with the generation-guidance persona added; you can tweak `~/.dsh/.agent-presets/galgame/` to customize it.
+
 ## Install
 
 ```bash

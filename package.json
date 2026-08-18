@@ -1,6 +1,6 @@
 {
   "name": "dsh-galgame-generator",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Galgame generator for DeepSeek Harness (DSH): give it a script document plus character/background/BGM/animation assets in the workspace (img_human/, img_bg/, audio/, img_cg/) and it builds a playable visual-novel web page with configurable save slots, speaker-following multi-pose sprites, [表情]/[位置]/[退场] stage control, opening/ending/CG animations, BGM control and if-line branching. DSH Galgame 生成器：提供剧本文档 + 立绘/背景/音乐/动画素材（img_human/、img_bg/、audio/、img_cg/）即可生成可玩视觉小说（可配置存档、多表情立绘、站位/退场控制、动画、BGM、if 条件线）。",
   "license": "MIT",
   "type": "module",
@@ -44,6 +44,7 @@
   },
   "files": [
     "lib",
+    "agent-preset",
     "cordis.patch.yml",
     "docs",
     "examples",

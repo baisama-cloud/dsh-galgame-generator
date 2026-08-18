@@ -1,0 +1,8 @@
+# 显示元数据：agent-preset picker 中的名称与描述。
+# 目录名 galgame 即 preset id。name / description 仅用于展示。
+name: Galgame 生成模式
+description: >-
+  生成模式：只放剧本文档与素材（img_human/、img_bg/、audio/、img_cg/），对助手说
+  「生成」即可按剧本自动构建一个可玩的视觉小说（.galgame.html + 侧边栏 🎮 Galgame 播放器）。
+  进入本模式的会话会自动注入生成引导，模型会走「扫描 → 构建」两步并内置素材与存档。
+order: 20
