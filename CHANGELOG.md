@@ -2,6 +2,19 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.3.0] - 2026-08-18
+
+Third release — Galgame generation mode:
+
+- **New: 🎬 Galgame 生成模式** — an agent preset the plugin installs into
+  `~/.dsh/.agent-presets/galgame` on first load. Pick it in the new-session
+  preset chip (or set as default in Settings → Agent Presets): sessions in the
+  mode get an injected persona that auto-runs `galgame_scan` → `galgame_build`
+  when you simply say 「生成」.
+- The preset is a full copy of `standard` (full coding agent) with the
+  generation-guidance persona; it never clobbers a user-edited preset.
+- `agent-preset/` is now shipped in the package (`files`).
+
 ## [0.2.0] - 2026-08-18
 
 Second release — stage control, animations, configurable saves and fixes:
